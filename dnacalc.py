@@ -11,7 +11,7 @@ SeqLength = float (len( DNASeq ))	#len cuenta las letras de una variable, es un 
 
 print ( "Length is " + str( SeqLength ) )	#str() dice que es un string lo que hay etre parentesis
 
- # Si no ponemos str() el programa no funcionara pk no se pueden sumar strings e integers
+# Si no ponemos str() el programa no funcionara pk no se pueden sumar strings e integers
 
 NumberA = DNASeq.count('A')
 NumberT = DNASeq.count("T")
