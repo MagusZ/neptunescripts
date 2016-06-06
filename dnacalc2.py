@@ -23,3 +23,10 @@ print ("A: " + str( (NumberA / SeqLength) *100 ) +"%" )
 print ("T: " + str( (NumberT / SeqLength) *100 ) +"%" )
 print ("G: " + str( (NumberG / SeqLength) *100 ) +"%" )
 print ("C: " + str( (NumberC / SeqLength) *100 ) +"%" )
+
+
+print ("A: {:.5f}".format (NumberA / SeqLength))
+print ("T: {}".format (NumberT / SeqLength))
+print ("G: {}".format (NumberG / SeqLength))
+print ("C: {}".format (NumberC / SeqLength))
+
